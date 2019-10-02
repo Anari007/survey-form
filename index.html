@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+		<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+<h1 id="title">a little survery</h1>
+<p id="description">let us help to improve stuff</p>
+</header>
+<div class="form">
+  <form id="survey-form">
+    <label class="yo name" id="name-label" for="name">*NAME:<label>
+      <input type="text" class="input-field" placeholder="enter your name" name="name" autofocus required>
+      <label class="yo email" id="email-label" for="email">*E-MAIL:<label>
+      <input type="email" placeholder="enter your email" name="email" class="input-field" autofocus required>
+        <label class="yo age" id="number-label" for="number">*AGE:<label>
+      <input type="number" placeholder="age" name="email" min="0" max="125" class="input-field">
+          <label for="pro" class="yo age" id="pro-label">WHAT ARE YOU:</label>
+          <div class="rightTab">
+            <select id="dropdown" name="pro" class="dropdown" >
+              <option disabled
+                      >Select an option</option>
+              <option value="student">Student</option>
+              <option value="fulltimejob" >Full time job</option>
+              <option value="fulltimelearner" >Full time learner</option>
+              <option value="no" >Prefer no to say</option>
+              <option value="other" >other</option>
+            </select>
+            </div>
+            <label class="yo hey" for="star">RATE OUR WEBSITE:</label>
+          <label class="radio"><input type="radio" name="star" 
+                                      > 5 star</label>
+           <label class="radio"> <input type="radio" name="star"> 4 star</label>
+           <label class="radio"> <input type="radio" name="star"> 3 star</label>
+           <label class="radio"> <input type="radio" name="star"> 2 star</label>
+           <label class="radio"> <input type="radio" name="star"> 1 star</label>
+          
+          <label class="yo" for="checkbox">SELECT COURSE:</label>
+          <label class="yo checkox"> <input type="checkbox" name="checkbox">HTML</label>
+          <label class="yo checkox"> <input type="checkbox" name="checkbox">CSS</label>
+          <label class="yo checkox"> <input type="checkbox" name="checkbox">JAVASCRIPT</label>
+          <label class="yo checkox"> <input type="checkbox" name="checkbox">JQUERY</label>
+          <label class="yo checkox"> <input type="checkbox" name="checkbox">PHP</label>
+          <label class="yo comment" for="comment">ANY COMMENT OR SUGGESTION?</label>
+            <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
+           
+            
+          
+          
+            
+           
+            
+          
+          <button type="submit">submit</button>
+  </form>
+          
+          
+          
+
+        </div>
+        
+    </body>
+</html>
